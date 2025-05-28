@@ -23,9 +23,8 @@ Deberás implementar cuantas más funcionalidades puedas de las siguientes:
 
 - Mejora el entorno de desarrollo, crea un script `dev` en el `package.json` que reinicie el servidor automáticamente al detectar cambios en el código fuente.
 - Sustituir el objeto de usuarios por una base de datos SQLite3 o mySQL.
-- Añade a cada usuario un campo de `role` y `APIKEY`:
-  - El campo `role` puede ser `admin` o `user`.
-  - El campo `APIKEY` es un string aleatorio de 32 caracteres.
-- Añade un endpoint que muestre la información de los usuarios, incluyendo su `role` y `APIKEY`.
-- Dentro del mismo endpoint, añade un botón que permita generar una nueva `APIKEY` para el usuario.
-
+- Añade una pagina de registro de usuarios:
+  - El registro debe ser accesible desde la ruta `/register`.
+  - El formulario de registro debe solicitar un `username`, `password`.
+- Añade un linter y crea un script `lint` en el `package.json` que arregle los errores de estilo.
+- Busca información sobre el sistema de autenticación usado en este proyecto, documenta **como funciona**, además de **sus ventajas y desventajas** frente a otros mecanismos de autenticación.
